@@ -1,1 +1,18 @@
-{"key":"value"}
+{
+  "id": "uuEe8YFnXAvDDqw5stQjb",
+  "job_name": "Pipeline 1",
+  "run_type": "",
+  "global_properties": [],
+  "variables": [],
+  "settings": {
+    "concurrancy": "",
+    "elapsed_time_metric": "",
+    "isElapsedTimeMetricChecked": false
+  },
+  "connections": [],
+  "tasks": [],
+  "triggers": {
+    "pipeline_id": "uuEe8YFnXAvDDqw5stQjb",
+    "triggers_data": []
+  }
+}
