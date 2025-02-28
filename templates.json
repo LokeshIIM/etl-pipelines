@@ -1,5 +1,5 @@
 {
-  "id": "SdTD17LmHmeFDNRrfTjfw",
+  "id": "FYSH2eQEcOJvPM5AQgsS8",
   "job_name": "Pipeline 1",
   "run_type": "",
   "global_properties": [],
@@ -12,7 +12,7 @@
   "connections": [],
   "tasks": [],
   "triggers": {
-    "pipeline_id": "SdTD17LmHmeFDNRrfTjfw",
+    "pipeline_id": "FYSH2eQEcOJvPM5AQgsS8",
     "triggers_data": []
   }
 }
