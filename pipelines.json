@@ -1,5 +1,5 @@
 {
-  "id": "OPbmm_ys3GBLjzzcpiSyQ",
+  "id": "SdTD17LmHmeFDNRrfTjfw",
   "job_name": "Pipeline 1",
   "run_type": "",
   "global_properties": [],
@@ -12,7 +12,7 @@
   "connections": [],
   "tasks": [],
   "triggers": {
-    "pipeline_id": "OPbmm_ys3GBLjzzcpiSyQ",
+    "pipeline_id": "SdTD17LmHmeFDNRrfTjfw",
     "triggers_data": []
   }
 }
