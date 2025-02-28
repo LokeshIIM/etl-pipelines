@@ -1,0 +1,18 @@
+{
+  "id": "OPbmm_ys3GBLjzzcpiSyQ",
+  "job_name": "Pipeline 1",
+  "run_type": "",
+  "global_properties": [],
+  "variables": [],
+  "settings": {
+    "concurrancy": "",
+    "elapsed_time_metric": "",
+    "isElapsedTimeMetricChecked": false
+  },
+  "connections": [],
+  "tasks": [],
+  "triggers": {
+    "pipeline_id": "OPbmm_ys3GBLjzzcpiSyQ",
+    "triggers_data": []
+  }
+}
