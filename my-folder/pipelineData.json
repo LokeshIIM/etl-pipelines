@@ -1,1 +1,160 @@
-[object Object],[object Object]
+[
+  {
+    "id": "sbN18zna4t9mGnL8zNgZv",
+    "job_name": "Pipeline 1",
+    "run_type": "",
+    "global_properties": [],
+    "variables": [],
+    "settings": {
+      "concurrancy": "",
+      "elapsed_time_metric": "",
+      "isElapsedTimeMetricChecked": false
+    },
+    "connections": [],
+    "tasks": [
+      {
+        "u_id": "5EoliXtSXGTOeGUVPm-Xd",
+        "id": "2-1-1",
+        "name": "ReadJDBC",
+        "description": "",
+        "activity_state": "",
+        "timeout": "",
+        "retry": "",
+        "retry_interval": "",
+        "secure_input": false,
+        "secure_output": false,
+        "input_values": [
+          {
+            "conn_id": "",
+            "tbname": "",
+            "query": ""
+          }
+        ],
+        "user_properties": []
+      },
+      {
+        "u_id": "FTJHsIi3cxqx55xNQ4jRh",
+        "id": "3-1",
+        "name": "Filter",
+        "description": "",
+        "activity_state": "",
+        "timeout": "",
+        "retry": "",
+        "retry_interval": "",
+        "secure_input": false,
+        "secure_output": false,
+        "input_values": [
+          {
+            "username": "",
+            "password": "",
+            "port number": "",
+            "database": "",
+            "terms": ""
+          }
+        ],
+        "user_properties": []
+      },
+      {
+        "u_id": "7KWT6PoW_jtJx650zdImm",
+        "id": "2-2-1",
+        "name": "WriteJDBC",
+        "description": "",
+        "activity_state": "",
+        "timeout": "",
+        "retry": "",
+        "retry_interval": "",
+        "secure_input": false,
+        "secure_output": false,
+        "input_values": [
+          {
+            "conn_id": "",
+            "tbname": ""
+          }
+        ],
+        "user_properties": []
+      }
+    ],
+    "triggers": {
+      "pipeline_id": "sbN18zna4t9mGnL8zNgZv",
+      "triggers_data": []
+    }
+  },
+  {
+    "id": "wPffpYVSBlWVtPeLrT6Us",
+    "job_name": "Pipeline 2",
+    "run_type": "",
+    "global_properties": [],
+    "variables": [],
+    "settings": {
+      "concurrancy": "",
+      "elapsed_time_metric": "",
+      "isElapsedTimeMetricChecked": false
+    },
+    "connections": [],
+    "tasks": [
+      {
+        "u_id": "OHWDNumbu3MzOC8MncTAQ",
+        "id": "2-1-1",
+        "name": "ReadJDBC",
+        "description": "",
+        "activity_state": "",
+        "timeout": "",
+        "retry": "",
+        "retry_interval": "",
+        "secure_input": false,
+        "secure_output": false,
+        "input_values": [
+          {
+            "conn_id": "",
+            "tbname": "",
+            "query": ""
+          }
+        ],
+        "user_properties": []
+      },
+      {
+        "u_id": "7nOJUJnk1XkyAc0Y94B76",
+        "id": "3-2",
+        "name": "Union",
+        "description": "",
+        "activity_state": "",
+        "timeout": "",
+        "retry": "",
+        "retry_interval": "",
+        "secure_input": false,
+        "secure_output": false,
+        "input_values": [
+          {
+            "left_table": "",
+            "right_table": "",
+            "union": ""
+          }
+        ],
+        "user_properties": []
+      },
+      {
+        "u_id": "Csbx0Q8UdeZWd40-dEn59",
+        "id": "2-2-1",
+        "name": "WriteJDBC",
+        "description": "",
+        "activity_state": "",
+        "timeout": "",
+        "retry": "",
+        "retry_interval": "",
+        "secure_input": false,
+        "secure_output": false,
+        "input_values": [
+          {
+            "conn_id": "",
+            "tbname": ""
+          }
+        ],
+        "user_properties": []
+      }
+    ],
+    "triggers": {
+      "pipeline_id": "wPffpYVSBlWVtPeLrT6Us",
+      "triggers_data": []
+    }
+  }
+]
